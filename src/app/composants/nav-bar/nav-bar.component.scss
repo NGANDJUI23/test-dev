@@ -1,5 +1,71 @@
+nav{
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 5rem;
+  gap: 1.3rem;
+}
 
+.menu{
+  display: flex;
+  gap: 3rem;
+}
 
+.menu>ol{
+  display: flex;
+  list-style-type: none;
+  gap: 3rem;
+  cursor: pointer;
+}
+
+.menu>ol>li{
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #4C535D;
+}
+
+.btns{
+  display: flex;
+  gap: .7rem;
+}
+
+.btn-language{
+  border: none;
+  background: none;
+  color: #BA0218;
+  cursor: pointer;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-signin{
+  background: #4C535D;
+  color: #FFF;
+  margin: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+a{
+  color: #BA0218;
+  text-decoration: none;
+  padding: 0;
+  margin: 10px 20px;
+}
 
 
 
